@@ -12,7 +12,6 @@ function render(element, root) {
 
   const el = document.createElement(type)
 
-
   for (let propName in props) {
 
     if (propName === 'children') {
