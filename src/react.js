@@ -1,12 +1,9 @@
-export function createElement(type, config = {}, ...children) {
-  return {
-    $$typeof: Symbol.for('react.element'),
-    type,
-    props: {
-      ...config,
-      children
-    }
-  }
+export function createElement(type, config, ...children) {
+  let props = { ...config, children };
+  const element = {
+    type: type, props,
+  };
+  return element
 }
 
 
