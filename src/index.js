@@ -1,5 +1,9 @@
-import React from 'react' // 核心库
+import React from "react";
+import ReactDOM from "react-dom";
 
-import ReactDOM from 'react-dom' // DOM渲染库
+ReactDOM.render(<div>1</div>, document.getElementById("root"));
 
-ReactDOM.render(<div>1</div>, document.getElementById('root'))
+
+
+
+
